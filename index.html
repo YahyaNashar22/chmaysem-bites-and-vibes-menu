@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the Chmaysem Bites & Vibes menu in English and Arabic."
+    />
+    <meta name="theme-color" content="#0b0909" />
+    <link rel="icon" href="./src/assets/fav.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800&family=Barlow+Condensed:wght@700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Chmaysem Bites & Vibes | Menu</title>
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Chmaysem Bites & Vibes home">
+        <span class="brand-crop">
+          <img src="./src/assets/logo.webp" alt="Chmaysem Bites & Vibes" />
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <a class="menu-shortcut" href="#menu" data-i18n="menu">Menu</a>
+        <button class="language-switcher" type="button" aria-label="Switch to Arabic">
+          <span class="language-option active" data-language-label="en">EN</span>
+          <span class="language-divider" aria-hidden="true"></span>
+          <span class="language-option" data-language-label="ar">ع</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-mark" aria-hidden="true">ش</div>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="eyebrow">Good food. Good mood.</p>
+          <h1 id="hero-title">
+            <span data-i18n="heroLineOne">Big bites.</span>
+            <span class="accent" data-i18n="heroLineTwo">Better vibes.</span>
+          </h1>
+          <p class="hero-copy" data-i18n="heroCopy">
+            Burgers, wraps, crispy favorites and comfort food made for every craving.
+          </p>
+          <a class="primary-button" href="#menu">
+            <span data-i18n="explore">Explore the menu</span>
+            <span class="button-arrow" aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-logo-crop">
+            <img src="./src/assets/logo.webp" alt="" />
+          </div>
+          <p>BITES <span>&</span> VIBES</p>
+        </div>
+      </section>
+
+      <section class="menu-shell" id="menu" aria-labelledby="menu-title">
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow" data-i18n="fresh">Made fresh. Served happy.</p>
+            <h2 id="menu-title" data-i18n="ourMenu">Our menu</h2>
+          </div>
+          <p class="section-copy" data-i18n="menuCopy">
+            Pick a category or scroll through all of our favorites.
+          </p>
+        </div>
+
+        <nav class="category-nav" aria-label="Menu categories">
+          <div class="category-scroll" id="category-nav"></div>
+        </nav>
+
+        <div class="menu-sections" id="menu-content" aria-live="polite">
+          <div class="loading-state">
+            <span class="loader" aria-hidden="true"></span>
+            <p data-i18n="loading">Preparing the menu…</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <span class="footer-popcorn" aria-hidden="true">● ● ●</span>
+        <strong>CHMAYSEM</strong>
+        <span>BITES & VIBES</span>
+      </div>
+      <p data-i18n="footer">Good food. Good mood.</p>
+      <a href="#top" class="back-to-top">
+        <span data-i18n="backToTop">Back to top</span>
+        <span aria-hidden="true">↑</span>
+      </a>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

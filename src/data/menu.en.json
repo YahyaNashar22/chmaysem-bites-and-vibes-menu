@@ -1,0 +1,298 @@
+{
+  "language": "en",
+  "currency": "USD",
+  "sections": [
+    {
+      "id": "beef-burgers",
+      "title": "Beef Burgers",
+      "items": [
+        {
+          "name": "Classic Beef Burger",
+          "description": "Grilled beef, cheddar cheese, fresh lettuce, tomato, onion, pickles & our signature sauce.",
+          "price": "$6.00"
+        },
+        {
+          "name": "Mozzarella Beef Burger",
+          "description": "Grilled beef topped with a crispy mozzarella patty, fresh lettuce & honey mustard sauce.",
+          "price": "$6.50"
+        },
+        {
+          "name": "Lebanese Beef Burger",
+          "description": "Grilled beef patty, fries, coleslaw, pickles & ketchup.",
+          "price": "$6.00"
+        }
+      ]
+    },
+    {
+      "id": "chicken-burgers",
+      "title": "Chicken Burgers",
+      "items": [
+        {
+          "name": "Classic Chicken Burger",
+          "description": "Grilled chicken breast, lettuce, tomato, onion, pickles & our signature sauce.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Mozzarella Chicken Burger",
+          "description": "Grilled chicken breast topped with a mozzarella patty, lettuce, pickles & creamy garlic sauce.",
+          "price": "$5.50"
+        },
+        {
+          "name": "Lebanese Chicken Burger",
+          "description": "Grilled chicken breast, coleslaw, tomato, pickles & creamy garlic sauce.",
+          "price": "$5.00"
+        }
+      ]
+    },
+    {
+      "id": "tortilla-wraps",
+      "title": "Tortilla Wraps",
+      "items": [
+        {
+          "name": "Burrito Wrap",
+          "description": "Crispy chicken strips, fresh lettuce, tomato, cheddar cheese & our special sauce, wrapped in a warm tortilla.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Boneless Wrap",
+          "description": "Crispy chicken, crunchy potato chips, cheddar sauce, honey mustard & ranch, wrapped in a warm tortilla.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Twister Wrap",
+          "description": "Grilled chicken breast, sweet corn, fresh lettuce, mozzarella cheese & creamy mayo, wrapped in a warm tortilla.",
+          "price": "$5.00"
+        },
+        {
+          "name": "BBQ Mozzarella",
+          "description": "Crispy chicken strips, mozzarella & cheddar cheese, fresh lettuce, pickles, BBQ sauce & honey mustard, wrapped in a warm tortilla.",
+          "price": "$5.50"
+        }
+      ]
+    },
+    {
+      "id": "fried-chicken-burgers",
+      "title": "Fried Chicken Burgers",
+      "items": [
+        {
+          "name": "Crispy Bite Burger",
+          "description": "Golden crispy chicken fillet, lettuce, cheddar slice, pickles & our signature sauce.",
+          "price": "$5.00"
+        },
+        {
+          "name": "BBQ Crispy Chicken",
+          "description": "Golden crispy chicken fillet dipped in BBQ sauce, cheddar cheese, lettuce, pickles & ranch sauce.",
+          "price": "$5.50"
+        },
+        {
+          "name": "Cheesy Crispy Burger",
+          "description": "Golden crispy chicken fillet, mozzarella patty, lettuce, pickles, BBQ & honey mustard sauce.",
+          "price": "$6.50"
+        }
+      ]
+    },
+    {
+      "id": "snack",
+      "title": "Snack",
+      "items": [
+        {
+          "name": "Fajita Sub",
+          "description": "Grilled chicken, sautéed onions, capsicum, melted mozzarella cheese & avocado sauce served in fresh submarine bread.",
+          "price": "$7.00"
+        }
+      ]
+    },
+    {
+      "id": "lebanese-sandwiches",
+      "title": "Lebanese Sandwiches",
+      "items": [
+        {
+          "name": "Tawouk Sandwich",
+          "description": "Garlic, fries, coleslaw, pickles & ketchup.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Crispy Sandwich",
+          "description": "3 crispy pieces, garlic, fries, coleslaw, pickles & ketchup.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Fries Sandwich",
+          "description": "Garlic, fries, coleslaw, pickles & ketchup.",
+          "price": "$3.00"
+        }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "title": "Appetizers",
+      "items": [
+        {
+          "name": "Cheddar Balls",
+          "description": "Served with its own sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Mozzarella Sticks",
+          "description": "Served with its own sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Potato Wedges",
+          "description": "Served with its own sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "French Fries",
+          "description": "Served with its own sauce.",
+          "price": "$2.00"
+        }
+      ]
+    },
+    {
+      "id": "platters",
+      "title": "Platters",
+      "items": [
+        {
+          "name": "Crispy Platter",
+          "description": "5 crispy pieces, fries, coleslaw, pickles & garlic.",
+          "price": "$7.50"
+        },
+        {
+          "name": "Chicken Fillet Platter",
+          "description": "2 chicken breasts, wedges & garlic.",
+          "price": "$7.50"
+        },
+        {
+          "name": "Tawouk Platter",
+          "description": "2 chicken skewers, wedges & garlic.",
+          "price": "$7.50"
+        }
+      ]
+    },
+    {
+      "id": "add-ons",
+      "title": "Add-ons",
+      "items": [
+        { "name": "Beef Patty", "description": "", "price": "$2.50" },
+        { "name": "1 Crispy Piece", "description": "", "price": "$1.50" },
+        { "name": "Grilled Chicken Breast", "description": "", "price": "$2.00" },
+        { "name": "Fried Chicken Breast", "description": "", "price": "$2.20" },
+        { "name": "Mozzarella Patty", "description": "", "price": "$1.50" },
+        { "name": "Sauce", "description": "", "price": "$0.80" },
+        { "name": "Coleslaw", "description": "", "price": "$1.50" },
+        { "name": "Cheddar Slice", "description": "", "price": "$0.50" }
+      ]
+    },
+    {
+      "id": "pasta",
+      "title": "Pasta",
+      "items": [
+        {
+          "name": "Cheddar Pasta",
+          "description": "Cheddar powder, Maggi, creamy sauce, creamy cheese, mozzarella & butter, topped with cheddar sauce & oregano.",
+          "price": "$3.50"
+        },
+        {
+          "name": "BBQ Pasta",
+          "description": "BBQ powder, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Mix Pasta",
+          "description": "Cheddar & BBQ powder, creamy cheese, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce & oregano.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Mexican Pasta",
+          "description": "Mexican powder, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Indomie Pasta",
+          "description": "Indomie powder, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Sweet Corn Pasta",
+          "description": "Sweet corn powder, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Fajita Pasta",
+          "description": "Chicken fajita, fajita powder, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Shawarma Pasta",
+          "description": "Chicken shawarma, shawarma powder, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Pizza Pasta",
+          "description": "Mixed vegetables, pizza sauce & powder, Maggi, dry basil, creamy sauce, mozzarella & butter, topped with cheddar sauce & oregano.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Sujok Pasta",
+          "description": "Sujok, sujok powder, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Crispy Pasta",
+          "description": "Crispy chicken, crispy powder, Maggi, creamy sauce, mozzarella & butter, topped with cheddar sauce.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Oven Pepperoni Pasta",
+          "description": "Special smoked flavor, Maggi, creamy sauce, mozzarella & butter, topped with pepperoni & cheddar sauce.",
+          "price": "$6.00"
+        }
+      ],
+      "note": {
+        "title": "Make it your way",
+        "text": "Any pasta can be made in the oven with a cup of sauce for 100,000 L.L. Add corn or mushrooms for 50,000 L.L."
+      }
+    },
+    {
+      "id": "corn",
+      "title": "Corn",
+      "items": [
+        {
+          "name": "Cheddar Corn",
+          "description": "Cheddar powder, Maggi, creamy cheese & butter, topped with mayo sauce & oregano.",
+          "price": "$3.50"
+        },
+        {
+          "name": "BBQ Corn",
+          "description": "BBQ powder, Maggi, creamy cheese & butter, topped with mayo & ketchup sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Mix Corn",
+          "description": "Cheddar & BBQ powder, Maggi, creamy cheese & butter, topped with mayo & ketchup sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Mexican Corn",
+          "description": "Mexican powder, Maggi, creamy cheese & butter, topped with thousand island sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Indomie Corn",
+          "description": "Indomie powder, Maggi, creamy cheese & butter, topped with mayo sauce.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Sweet Corn",
+          "description": "Sweet corn powder, Maggi, creamy cheese & butter, topped with cheddar sauce.",
+          "price": "$3.50"
+        }
+      ],
+      "note": {
+        "title": "Make it extra creamy",
+        "text": "Add creamy sauce & mozzarella cheese for 100,000 L.L."
+      }
+    }
+  ]
+}
