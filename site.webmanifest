@@ -1,0 +1,22 @@
+{
+  "name": "Chmaysem Bites & Vibes",
+  "short_name": "Chmaysem",
+  "description": "The Chmaysem Bites & Vibes menu in English and Arabic.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0909",
+  "theme_color": "#0b0909",
+  "icons": [
+    {
+      "src": "/src/assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
